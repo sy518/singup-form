@@ -1,0 +1,43 @@
+body {
+    fieldset {
+        width: 350px;
+        border: 5px solid #e64545;
+        border-radius: 30px;
+        padding: 20px;
+        text-align: center;
+        color: rgb(14, 13, 13);}
+        legend {
+         width: 150;   
+        background-color: #efefef;
+        border: 10px solid #af3d3d;
+        border-radius: 30px;
+        padding: 10px 20px;
+        text-align: center;
+        text-transform: uppercase;
+     font-family: cursive;
+     font-size:x-large;
+     font-style: italic;
+     color: rgb(56, 223, 125)
+        }
+     input[type="button"] {
+            border: 5px solid #9e3e3e;
+            background-color: #009966;
+            color: #0c0b0b;
+            border-radius: 10px;
+            padding: 5px;
+            margin-top: 10px;}
+            input[type="button"]:hover {
+            border: 1px solid #194d33;
+           
+     a link {
+        a:visited {
+        color: rgb(204, 51, 51);}
+        a:hover {
+        color: rgb(186, 96, 189);
+        text-decoration: underline;}
+        a:active {
+        color: rgb(6, 153, 153);}
+     }
+    }
+}   
+ 
